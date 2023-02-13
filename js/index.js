@@ -5,9 +5,9 @@ import sitesSection from "./modules/sites.js";
 import advantagesSection from "./modules/advantages.js";
 
 document.addEventListener("DOMContentLoaded", function () {
-	heroSection();
-	servicesSection();
-	facilitiesSection();
-	sitesSection();
-	advantagesSection();
+	heroSection(hero);
+	servicesSection(services);
+	facilitiesSection(facilities);
+	sitesSection(sites);
+	advantagesSection(advantages);
 }); // DOMContentLoaded slut
