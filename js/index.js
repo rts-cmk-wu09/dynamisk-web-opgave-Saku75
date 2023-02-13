@@ -1,8 +1,13 @@
-document.addEventListener("DOMContentLoaded", function() {
+import heroSection from "./modules/hero.js";
+import servicesSection from "./modules/services.js";
+import facilitiesSection from "./modules/facilities.js";
+import sitesSection from "./modules/sites.js";
+import advantagesSection from "./modules/advantages.js";
 
-    // slå dig løs her... 
-
-    //eksempel på at udskrive alle overskrifter i services i konsollen:
-    services.forEach(service => console.log(service.headline))
-
-}) // DOMContentLoaded slut
+document.addEventListener("DOMContentLoaded", function () {
+	heroSection();
+	servicesSection();
+	facilitiesSection();
+	sitesSection();
+	advantagesSection();
+}); // DOMContentLoaded slut
