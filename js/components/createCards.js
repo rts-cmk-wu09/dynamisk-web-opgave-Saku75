@@ -8,7 +8,10 @@ export default function createCards(data, parent, callback) {
 				createElement("h3", card).innerText = element.headline;
 			if (element.text) createElement("p", card).innerText = element.text;
 			if (element.linkText)
-				createElement("a", card).innerText = element.linkText;
+				createElement("a", card, (link) => {
+					link.innerText = element.linkText;
+					link.href = "#";
+				});
 			if (callback) callback(card);
 			console.log(card);
 		});
