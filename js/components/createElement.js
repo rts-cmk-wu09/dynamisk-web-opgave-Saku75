@@ -1,6 +1,6 @@
-export default function createElement(tag, parent, className) {
+export default function createElement(tag, parent, callback) {
 	const element = document.createElement(tag);
-	if (className) element.classList.add(className);
 	parent.appendChild(element);
+	if (callback) callback(element);
 	return element;
 }
