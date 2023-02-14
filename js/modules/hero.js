@@ -11,7 +11,7 @@ export default function main(data) {
 	createElement("nav", hero, (navbar) => {
 		createElement("a", navbar, (logoLink) => {
 			createElement("img", logoLink).src = "/img/logo.svg";
-		}).href = "/";
+		}).href = "#";
 		createElement("button", navbar, (button) => {
 			createElement("img", button).src = "/img/arrowDown.svg";
 			createElement("img", button).src = "/img/profile.svg";
