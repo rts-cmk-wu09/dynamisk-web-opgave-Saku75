@@ -13,7 +13,6 @@ export default function createCards(data, parent, callback) {
 					link.href = "#";
 				});
 			if (callback) callback(card);
-			console.log(card);
 		});
 	});
 }
