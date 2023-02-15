@@ -3,6 +3,7 @@ import servicesSection from "./modules/services.js";
 import facilitiesSection from "./modules/facilities.js";
 import sitesSection from "./modules/sites.js";
 import advantagesSection from "./modules/advantages.js";
+import footerSection from "./modules/footer.js";
 
 document.addEventListener("DOMContentLoaded", function () {
 	heroSection(hero);
@@ -10,4 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
 	facilitiesSection(facilities);
 	sitesSection(sites);
 	advantagesSection(advantages);
+	footerSection(footer);
 }); // DOMContentLoaded slut
