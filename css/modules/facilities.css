@@ -1,0 +1,41 @@
+.facilities {
+	margin-bottom: 12rem;
+}
+
+.facilities > h2 {
+	margin-bottom: 5rem;
+}
+
+.facilities > div {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.facilities > div > section {
+	flex: 1;
+}
+
+.facilities > div > section > img {
+	height: 32px;
+
+	margin-bottom: 5rem;
+}
+
+.facilities > div > section > h3 {
+	margin-bottom: 1.5rem;
+}
+
+.facilities > div > section > p {
+	margin-bottom: 1.5rem;
+
+	color: #00000099;
+
+	font-weight: 500;
+}
+
+.facilities > div > section > a {
+	color: #f78065;
+
+	font-weight: 700;
+}
