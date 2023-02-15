@@ -1,0 +1,41 @@
+.advantages {
+	margin-bottom: 12rem;
+}
+
+.advantages > h2 {
+	margin-bottom: 5rem;
+}
+
+.advantages > div {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.advantages > div > section {
+	flex: 1;
+}
+
+.advantages > div > section > img {
+	height: 32px;
+
+	margin-bottom: 5rem;
+}
+
+.advantages > div > section > h3 {
+	margin-bottom: 1.5rem;
+}
+
+.advantages > div > section > p {
+	margin-bottom: 1.5rem;
+
+	color: #00000099;
+
+	font-weight: 500;
+}
+
+.advantages > div > section > a {
+	color: #f78065;
+
+	font-weight: 700;
+}
